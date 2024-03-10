@@ -1,0 +1,29 @@
+.ramzan-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ramzan-header {
+    font-size: 32px;
+    color: #1c8f1c; /* Adjust color as needed */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ramzan-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ramzan-content p {
+    margin-bottom: 20px;
+}
+
+.ramzan-image {
+    width: 50%;
+    max-width: 600px; /* Adjust the maximum width of the image as per your design */
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+}

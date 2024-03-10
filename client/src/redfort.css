@@ -1,0 +1,122 @@
+/* .redfort-container {
+    padding: 20px;
+}
+
+.redfort-info {
+    margin-top: 20px;
+}
+
+.redfort-info p {
+    margin-bottom: 15px;
+}
+
+.redfort-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.redfort-images img {
+    width: 30%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .redfort-images {
+        flex-wrap: wrap;
+    }
+
+    .redfort-images img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+} */
+
+
+/* redfort.css */
+
+/* Container styles */
+.redfort-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+.redfort-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: #333; */
+    color: #f70418;
+
+}
+
+/* Info section styles */
+.redfort-info {
+    margin-top: 20px;
+}
+
+.redfort-info p {
+    margin-bottom: 15px;
+    /* line-height: 1.6; */
+    /* color: #555; */
+    line-height: 2.0;
+    color: #010101;
+}
+
+/* Image gallery styles */
+.redfort-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.redfort-images img {
+    width: calc(33.33% - 10px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.redfort-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Button styles */
+.redfort-container button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.redfort-container button:hover {
+    background-color: #c82333;
+}
+
+/* Map container styles */
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .redfort-images {
+        flex-wrap: wrap;
+    }
+
+    .redfort-images img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,29 @@
+.diwali-container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.diwali-header {
+    font-size: 32px;
+    color: #a90c0c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.diwali-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.diwali-content p {
+    margin-bottom: 20px;
+}
+.diwali-image {
+    width: 50%;
+    max-width: 600px; /* Adjust the maximum width of the image as per your design */
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+}
+

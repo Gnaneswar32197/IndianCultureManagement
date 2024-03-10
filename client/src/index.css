@@ -1,0 +1,84 @@
+/*Page Style*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.full-height {
+  width: 100%;
+  height: 100%;
+}
+
+:focus {
+  outline: none;
+}
+
+/*Login Page*/
+.logincontent {
+  background: url('images/ICM1.jpg');
+  height: 100%;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: none;
+}
+
+.popupwindow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+}
+
+.loginstyle1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.loginstyle2 {
+  position: relative;
+  height: 400px;
+  padding: 10px;
+  background: 'rgba(255, 255, 255, 0.7)'
+}
+
+.txtbox {
+  width: 98%;
+  height: 30px;
+  font-size: 10pt;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  background: linear-gradient(to right, #FF5722, #FFC107); /* Gradient background */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make the font bold */
+  text-transform: uppercase; /* Convert text to uppercase */
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #FFC107, #FF5722); /* Change background color on hover */
+}
+
+.linklabel {
+  color: dodgerblue;
+  cursor: pointer;
+}
